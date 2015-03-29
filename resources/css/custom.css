@@ -1,0 +1,36 @@
+/* general */
+.start-page, 
+.game-page {
+	max-width: 730px;
+}
+.container h1,
+.container h2 {
+	text-align: center;
+}
+/* end - general */
+
+/* start page */
+.start-page .jumbotron {
+	margin-top: 50px;
+	padding-top: 20px;
+}
+.start-page .btn {
+	max-width: 150px;
+	display: block;
+	margin: auto;
+}
+/* end - start page */
+
+/* game page */
+.game-page .jumbotron {
+	margin-top: 50px;
+	padding-top: 5px;
+}
+.game-page .move-controls .btn {
+	min-width: 194px;
+}
+.btn-new-game {
+	display: block;
+  	margin: auto;
+  	width: 100px;
+}
